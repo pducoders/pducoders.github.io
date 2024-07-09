@@ -1,9 +1,22 @@
 <!doctype html>
 <html>
   <head>
-    <title>Rosa's flag game!</title>
+    <title>PDUcoders</title>
   </head>
   <body>
-    <p>This is not currently working</p>
+    <h1>Coding games etc</h1>
+    <p id='demo' style='display: none'>Not working now</p>  
+    <button onclick="toggleText()">Flag game</button>
+    <script>
+      
+        function toggleText() {
+  var text = document.getElementById("demo");
+  if (text.style.display === "none") {
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";
+  }
+}
+}</script>
   </body>
 </html>
